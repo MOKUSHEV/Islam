@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #fff5cd;
+}
+#header {
+  padding: 20px 0;
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+.lining {
+  display: flex;
+}
+.fail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.fail h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0f0d1c;
+}
+.figma {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-left: 170px;
+}
+.figma p {
+  font-size: 18px;
+  color: #5a5a5a;
+}
+.lining button {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 15px;
+  padding: 10px 30px;
+  background: #756bee;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.content {
+  margin-top: 219px;
+}
+.tex {
+  width: 500px;
+}
+.tex h1 {
+  font-size: 68px;
+  color: #0f0d1c;
+  font-weight: 700;
+}
+.tex span {
+  color: #756bee;
+}
+.tex p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #5a5a5a;
+  margin-top: 22px;
+}
+.content button {
+  padding: 20px 40px;
+  border-radius: 50px;
+  background: #756bee;
+  color: white;
+  border: none;
+  font-size: 18px;
+  margin-top: 55px;
+}
+.section-content {
+  display: flex;
+}
+.section-content img {
+  width: 602px;
+  height: 655px;
+  margin-top: 110px;
+}
+.rico {
+  width: 64px !important;
+  height: 55px !important;
+  margin-left: 22px;
+  margin-bottom: 50px !important;
+}
+.img-1 img {
+  width: 52px !important;
+  height: 101px !important;
+}
+.img-1 {
+  position: absolute;
+  left: 0;
+  margin-top: -25px;
+}
+.img-2 img {
+  width: 52px !important;
+  height: 101px !important;
+}
+.img-2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
