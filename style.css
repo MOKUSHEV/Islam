@@ -3,11 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background: #fff5cd;
-}
+
 #header {
   padding: 20px 0;
+  background: #fff5cd;
 }
 .container {
   display: flex;
@@ -15,6 +14,7 @@ body {
   max-width: 1200px;
   width: 100%;
 }
+
 .lining {
   display: flex;
 }
@@ -49,6 +49,9 @@ body {
   border-radius: 20px;
   cursor: pointer;
 }
+@media (max-width: 1024px) {
+}
+
 .content {
   margin-top: 219px;
 }
@@ -78,8 +81,21 @@ body {
   font-size: 18px;
   margin-top: 55px;
 }
+
+/* 2 */
+#section {
+  background: #fff5cd;
+}
+.container2 {
+  margin: 0 auto;
+  max-width: 1920px;
+  width: 100%;
+  height: 850px;
+}
+
 .section-content {
   display: flex;
+  justify-content: center;
 }
 .section-content img {
   width: 602px;
@@ -109,4 +125,357 @@ body {
   position: absolute;
   right: 0;
   top: 0;
+}
+.container3 {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  height: 1000px;
+}
+.hero-content h1 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #000;
+}
+.hero-content1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 160px;
+}
+.Apple {
+  display: flex;
+  gap: 90px;
+  margin-top: 42px;
+}
+.Apple img {
+  width: 110px;
+  height: 35px;
+}
+.photo1 {
+  width: 590px;
+  height: 461px;
+}
+
+.leptop h1 {
+  width: 541px;
+  font-size: 55px;
+  font-weight: 600;
+  color: #39364e;
+}
+.leptop p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #39364e;
+  width: 400px;
+  height: 90px;
+  margin-top: 14px;
+}
+.leptop button {
+  padding: 15px 25px;
+  border-radius: 50px;
+  background: #7854f7;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.leptop {
+  display: flex;
+  align-items: center;
+  margin-top: 212px;
+}
+.lep {
+  margin-left: 50px;
+}
+#hero- {
+  background: #fff5cd;
+}
+.container- {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  height: 800px;
+  text-align: center;
+  background: #fff5cd;
+  padding-top: 120px;
+}
+.box {
+  width: 410px;
+  height: 365px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 53px;
+}
+.box1 {
+  width: 410px;
+  height: 365px;
+  background: #7854f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 53px;
+  color: #fff;
+}
+.box1 h1 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 23px;
+}
+.box1 p {
+  color: #fff;
+  width: 300px;
+  margin-top: 14px;
+}
+.box img {
+  width: 112px;
+  height: 113px;
+}
+.box h1 {
+  color: #39364e;
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 23px;
+}
+.box p {
+  width: 300px;
+  margin-top: 14px;
+}
+.content- {
+  display: flex;
+  gap: 24px;
+}
+.lo {
+  font-size: 55px;
+  font-weight: 600;
+  color: #39364e;
+}
+.ol {
+  font-size: 18px;
+  font-weight: 400;
+  color: #39364e;
+  margin-top: 18px;
+}
+.container-2 {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  padding-top: 215px;
+  justify-content: center;
+  padding-bottom: 115px;
+}
+.content-2 h1 {
+  font-size: 55px;
+  color: #39364e;
+  font-weight: 600;
+  width: 535px;
+}
+.content-2 p {
+  font-size: 16px;
+  color: #39364e;
+  width: 410px;
+  margin-top: 36px;
+}
+.photo2 img {
+  width: 580px;
+  height: 420px;
+}
+#hero-live {
+  background: #fff5cd;
+}
+.container-oun {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  padding-top: 115px;
+  padding-bottom: 115px;
+}
+.content-live {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.content-live h1 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #39364e;
+}
+.content-live p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #39364e;
+  padding-top: 8px;
+}
+.losh {
+  width: 380px;
+  height: 240px;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+}
+.losh__block {
+  display: flex;
+  gap: 9px;
+  padding: 60px 40px;
+}
+.block1 p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #696969;
+  width: 210px;
+  height: 70px;
+}
+
+.lll {
+  width: 200px;
+  height: 1px;
+  background: #f0f0f0;
+  margin: 10px;
+}
+.bl {
+  display: flex;
+  gap: 8px;
+}
+.bl span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #7854f7;
+}
+.bl p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #acacac;
+  width: 100px;
+}
+.block1 h2 {
+  color: #39364e;
+  font-size: 14px;
+  font-weight: 500;
+}
+.BLOCK {
+  gap: 23px;
+  display: flex;
+  margin-top: 80px;
+}
+#plank {
+  background: #7854f7;
+}
+.container-- {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.content-- {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 132px;
+  padding-bottom: 142px;
+}
+.content-- p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+}
+.content-- h1 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #fff;
+  width: 870px;
+  height: 126px;
+}
+.content-- button {
+  border-radius: 5px;
+  padding: 14px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  background: #fff;
+  border: none;
+  margin-top: 38px;
+}
+#glovo {
+  background: #000;
+}
+.glovo-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 42px;
+  padding-bottom: 31px;
+}
+.glovo-content p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #bdbec8;
+}
+.glovo-content {
+  display: flex;
+  gap: 30px;
+}
+.line {
+  width: 1228.398px;
+  height: 1px;
+  background: #0b363b;
+  margin-top: 42px;
+}
+.phons {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  right: 0;
+}
+.glovo-content {
+  position: relative;
+}
+.BLOCK2 {
+  display: flex;
+  gap: 110px;
+  padding-top: 85px;
+}
+
+.red p {
+  padding: 18px 0px 0px 0px;
+  color: #bdbec8;
+  font-size: 18px;
+  width: 140px;
+}
+.lov {
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  justify-content: right;
+  position: absolute;
+  right: 20.5pc;
+}
+.yellou {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.yellou span {
+  color: #bdbec8;
+  display: flex;
+  padding-top: 30px;
+  width: 140px;
+  position: absolute;
+  right: 19pc;
+}
+.kok span {
+  color: #bdbec8;
+  font-size: 17px;
+  font-weight: 400;
+}
+.kok {
+  display: flex;
+  gap: 390px;
 }
